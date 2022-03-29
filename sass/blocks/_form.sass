@@ -1,0 +1,68 @@
+
+.header
+	&__form
+		display: flex
+.form
+	gap: 9rem
+	margin-bottom: 23rem
+	&__data
+		display: grid
+		grid-template-columns: 242rem 242rem 152rem 152rem 242rem	
+	&__item
+		position: relative
+		&:nth-child(1)
+			width: 242rem
+			input
+				border-radius: 4px 0px 0px 4px
+		&:nth-child(2)
+			width: 242rem
+		&:nth-child(3)
+			svg
+				position: absolute
+				top: 21rem
+				right: 18rem
+		&:nth-child(5)
+			width: 242rem
+			input
+				border-radius: 0px 4px 4px 0px
+		input
+			background-color: rgba(245, 245, 250, 0.9)
+			width: 100%
+			padding-left: 20rem
+			padding-top: 1rem
+			&::placeholder
+				font-size: 17rem
+				color: rgba(37, 44, 56, 1)
+			&:focus
+				&::placeholder
+					color: rgba(147, 149, 155, 1)
+
+		&::after
+			content: ''
+			position: absolute
+			width: 1rem
+			height: 36rem
+			background: rgba(180, 183, 187, 1)
+			top: 13rem
+			right: 0
+		&:nth-child(5)
+			&::after
+				display: none
+	&__arrow-down
+		position: absolute
+		top: 24rem
+		right: 19rem
+
+	&__label
+		position: absolute
+		top: -27rem
+		left: 0rem
+		color: rgba(245, 245, 250, 1)
+
+	&__input
+		border: none
+		height: 64rem
+	
+	&__button
+		height: 64rem
+		width: 160rem

@@ -1,0 +1,169 @@
+.mobile-menu
+	background: #fff
+	width: 375rem
+	position: fixed
+	left: calc(50% - 187rem)
+	z-index: 10
+	padding: 0 24rem 28rem
+	border-radius: 4px
+	&__logo
+		text-align: center
+		padding-top: 19rem
+		margin-bottom: 24rem
+	&__remove
+		position: absolute
+		width: 40rem
+		height: 40rem
+		display: flex
+		justify-content: center
+		align-items: center
+		top: 15rem
+		left: 10rem
+	.top-list
+		list-style: none
+		padding-bottom: 2rem
+		border-bottom: 2px solid rgba(180, 183, 187, 0.1)
+
+		&__item
+			margin-bottom: 20rem
+			&:nth-child(4)
+				padding-left: 4rem
+				
+			a
+				display: flex
+				color: rgba(39, 43, 53, 1)
+		&__text
+			padding-top: 3rem
+			padding-left: 11rem
+			font-weight: 500
+
+
+	.sub-list
+		padding-top: 23rem
+		&__item
+			margin-bottom: 26rem
+			a
+				color: rgba(39, 43, 53, 1)
+				font-size: 16rem
+				font-weight: 500
+
+
+			
+.filter-header
+	width: 375rem
+	height: 52rem
+	position: fixed
+	top: 611rem
+	z-index: 10
+	background: #fff
+	border-radius: 4px
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12)
+	.content
+		display: flex
+		justify-content: space-between
+		padding-left: 20rem
+		padding-right: 20rem
+		align-items: center
+		padding-top: 15rem
+	&__button
+		display: flex
+		svg
+			margin-right: 6rem
+		p
+			font-size: 14rem
+			font-weight: 400
+			margin-top: 2rem
+	&__name
+		font-size: 14rem
+		font-weight: 400
+
+
+
+.mobile-filter
+	background: #fff
+	width: 375rem
+	min-height: 611rem
+	position: fixed
+	left: calc(50% - 187rem)
+	z-index: 10
+	padding: 24rem 24rem 28rem
+	border-radius: 4px
+	&__title
+		font-weight: 700
+		font-size: 19rem
+		text-align: center
+	&__remove
+		position: absolute
+		width: 40rem
+		height: 40rem
+		display: flex
+		justify-content: center
+		align-items: center
+		top: 15rem
+		left: 10rem
+	&__list
+		margin-top: 27rem
+	&__directions
+		a
+			color: #252C38
+			font-weight: 400
+			svg
+				margin-left: 4rem
+				position: relative
+				top: 1rem
+
+	&__item
+		margin-bottom: 22rem
+		input
+			display: none
+			position: relative
+		label
+			position: relative
+			left: 35rem
+			font-size: 16rem
+			font-weight: 400
+			cursor: pointer
+			&::before
+				content: url(".././icons/checkbox.svg")
+				position: absolute
+				left: -32px
+				top: -1rem
+			&::after
+				content: url(".././icons/checkbox-checked.svg")
+				position: absolute
+				left: -32px
+				top: -1rem
+				z-index: 2
+				opacity: 0
+.mobile-filter__radio:checked + .mobile-filter__label::after
+	opacity: 1
+
+	
+
+
+
+
+
+
+
+
+				
+			
+			
+	
+		
+				
+// 		&::after
+// 			content: ""
+// 			background: url("../icons/check.svg") no-repeat
+// 			position: absolute
+// 			top: 4rem
+// 			left: 4rem
+// 			width: 18rem
+// 			height: 18rem
+// 			z-index: 2
+// 			opacity: 0
+// .request__checkbox:checked + .request__label::after
+// 	opacity: 1
+
+

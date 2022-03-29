@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url("FiraSans-Bold.eot");
+  src: url("FiraSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("FiraSans-Bold.woff") format("woff"),
+    url("FiraSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("FiraSansMedium.eot");
+  src: url("FiraSansMedium.eot?#iefix") format("embedded-opentype"),
+    url("FiraSansMedium.woff") format("woff"),
+    url("FiraSansMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
